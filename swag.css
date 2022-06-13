@@ -1,0 +1,88 @@
+body {
+    background-color: gray;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+p {
+    text-align: left;
+}
+table, th, td {
+    border: 1px solid black;
+}
+img {
+    border: 2px solid black;
+}
+ul {
+    border: 3px solid black;
+}
+li {
+    font-size: 20px;
+}
+h3 {
+    text-decoration: underline overline;
+}
+h4 {
+    line-height: 0px;
+}
+
+a:link {
+    color: darkslategray;
+    text-decoration: none;
+}
+a:visited {
+    color: darkslategray;
+    text-decoration: none;
+}
+a:hover {
+    color: darkslategray;
+    text-decoration: underline;
+}
+a:active {
+    color: darkslategray;
+    text-decoration: underline;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.left {
+    display: block;
+    margin-left: 0px;
+}
+.mirror {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.blitz {
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.hover_img a:hover span {
+    display: block;
+    width: 350px;
+}
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: none;
+    color: #fff;
+    text-align: center; top: +20px;
+    padding: 5px 0;
+    border: none;
+  
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
